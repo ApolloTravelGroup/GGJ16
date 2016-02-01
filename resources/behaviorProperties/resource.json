@@ -1,0 +1,119 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "3",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "isAlive",
+          "type": "boolean"
+        }
+      ]
+    },
+    "CameraBehavior": {
+      "scriptId": "10",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "followActor",
+          "type": "string"
+        }
+      ]
+    },
+    "TilemapBehavior": {
+      "scriptId": "26",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "KillBoxBehavior": {
+      "scriptId": "22",
+      "line": 6,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "TouchBehavior": {
+      "scriptId": "73",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "doorName",
+          "type": "string"
+        }
+      ]
+    },
+    "OpenDoorBehavior": {
+      "scriptId": "74",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ZeroGravityBehavior": {
+      "scriptId": "75",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FlickerBehavior": {
+      "scriptId": "96",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "followActorName",
+          "type": "string"
+        },
+        {
+          "name": "maxOpacity",
+          "type": "number"
+        }
+      ]
+    },
+    "InstructionsBehavior": {
+      "scriptId": "112",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DialogBehavior": {
+      "scriptId": "114",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "targetState",
+          "type": "string"
+        }
+      ]
+    },
+    "RootControllerBehavior": {
+      "scriptId": "129",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "EpicenterBehavior": {
+      "scriptId": "159",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "WinBehavior": {
+      "scriptId": "162",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

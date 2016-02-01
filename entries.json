@@ -1,0 +1,600 @@
+[
+  {
+    "id": "143",
+    "name": "TileMaps",
+    "type": null,
+    "children": [
+      {
+        "id": "4",
+        "name": "Tile Set",
+        "type": "tileSet"
+      },
+      {
+        "id": "98",
+        "name": "Warp tiles",
+        "type": "tileSet"
+      }
+    ]
+  },
+  {
+    "id": "131",
+    "name": "test",
+    "type": "tileSet"
+  },
+  {
+    "id": "6",
+    "name": "Map",
+    "type": "tileMap"
+  },
+  {
+    "id": "85",
+    "name": "Sounds",
+    "type": null,
+    "children": [
+      {
+        "id": "80",
+        "name": "DoorOpen",
+        "type": "sound"
+      },
+      {
+        "id": "84",
+        "name": "KillSound",
+        "type": "sound"
+      },
+      {
+        "id": "86",
+        "name": "KillSound2",
+        "type": "sound"
+      },
+      {
+        "id": "107",
+        "name": "Speech",
+        "type": null,
+        "children": [
+          {
+            "id": "106",
+            "name": "Hello",
+            "type": "sound"
+          },
+          {
+            "id": "111",
+            "name": "Instructions",
+            "type": "sound"
+          },
+          {
+            "id": "120",
+            "name": "AlphaCentauri",
+            "type": "sound"
+          },
+          {
+            "id": "121",
+            "name": "ComeHome",
+            "type": "sound"
+          },
+          {
+            "id": "122",
+            "name": "Exploring",
+            "type": "sound"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "117",
+    "name": "Music",
+    "type": null,
+    "children": [
+      {
+        "id": "119",
+        "name": "Intro",
+        "type": "sound"
+      },
+      {
+        "id": "123",
+        "name": "Dead",
+        "type": "sound"
+      },
+      {
+        "id": "130",
+        "name": "Play",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Scenes",
+    "type": null,
+    "children": [
+      {
+        "id": "128",
+        "name": "StartUp",
+        "type": "scene"
+      },
+      {
+        "id": "125",
+        "name": "Children",
+        "type": null,
+        "children": [
+          {
+            "id": "109",
+            "name": "InitialScreen",
+            "type": "scene"
+          },
+          {
+            "id": "124",
+            "name": "GameOver",
+            "type": "scene"
+          },
+          {
+            "id": "110",
+            "name": "Instructions",
+            "type": "scene"
+          },
+          {
+            "id": "0",
+            "name": "Game",
+            "type": "scene"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "GameEngine",
+    "type": null,
+    "children": [
+      {
+        "id": "9",
+        "name": "Game",
+        "type": "script"
+      },
+      {
+        "id": "33",
+        "name": "GamePhysics",
+        "type": "script"
+      },
+      {
+        "id": "20",
+        "name": "Geo",
+        "type": "script"
+      },
+      {
+        "id": "71",
+        "name": "LevelGenerator",
+        "type": "script"
+      },
+      {
+        "id": "21",
+        "name": "Behaviors",
+        "type": null,
+        "children": [
+          {
+            "id": "3",
+            "name": "PlayerBehavior",
+            "type": "script"
+          },
+          {
+            "id": "10",
+            "name": "CameraBehavior",
+            "type": "script"
+          },
+          {
+            "id": "22",
+            "name": "KillBoxBehavior",
+            "type": "script"
+          },
+          {
+            "id": "96",
+            "name": "FlickerBehavior",
+            "type": "script"
+          },
+          {
+            "id": "26",
+            "name": "TilemapBehavior",
+            "type": "script"
+          },
+          {
+            "id": "112",
+            "name": "InstructionsBehavior",
+            "type": "script"
+          },
+          {
+            "id": "114",
+            "name": "DialogBehavior",
+            "type": "script"
+          },
+          {
+            "id": "129",
+            "name": "RootControllerBehavior",
+            "type": "script"
+          },
+          {
+            "id": "159",
+            "name": "EpicenterBehavior",
+            "type": "script"
+          },
+          {
+            "id": "162",
+            "name": "WinBehavior",
+            "type": "script"
+          }
+        ]
+      },
+      {
+        "id": "81",
+        "name": "RNG",
+        "type": "script"
+      },
+      {
+        "id": "115",
+        "name": "Helpers",
+        "type": null,
+        "children": [
+          {
+            "id": "116",
+            "name": "AudioManager",
+            "type": "script"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Pussel",
+    "type": null,
+    "children": [
+      {
+        "id": "15",
+        "name": "Mini Labyrint",
+        "type": null,
+        "children": [
+          {
+            "id": "14",
+            "name": "Mini Labyrint Map",
+            "type": "tileMap"
+          },
+          {
+            "id": "17",
+            "name": "Mini Labyrint Prefab",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "156",
+        "name": "TileSeg",
+        "type": null,
+        "children": [
+          {
+            "id": "105",
+            "name": "TileSeg1-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "144",
+            "name": "TileSeg2-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "145",
+            "name": "TileSeg3-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "146",
+            "name": "TileSeg4-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "147",
+            "name": "TileSeg5-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "148",
+            "name": "TileSeg6-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "149",
+            "name": "TileSeg7-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "150",
+            "name": "TileSeg8-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "151",
+            "name": "TileSeg9-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "152",
+            "name": "TileSeg10-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "153",
+            "name": "TileSeg11-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "154",
+            "name": "TileSeg12-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "155",
+            "name": "TileSeg13-1",
+            "type": "tileMap"
+          },
+          {
+            "id": "27",
+            "name": "old",
+            "type": null,
+            "children": [
+              {
+                "id": "29",
+                "name": "TileSeg1",
+                "type": "tileMap"
+              },
+              {
+                "id": "45",
+                "name": "TileSeg2",
+                "type": "tileMap"
+              },
+              {
+                "id": "46",
+                "name": "TileSeg3",
+                "type": "tileMap"
+              },
+              {
+                "id": "47",
+                "name": "TileSeg4",
+                "type": "tileMap"
+              },
+              {
+                "id": "48",
+                "name": "TileSeg5",
+                "type": "tileMap"
+              },
+              {
+                "id": "49",
+                "name": "TileSeg6",
+                "type": "tileMap"
+              },
+              {
+                "id": "50",
+                "name": "TileSeg7",
+                "type": "tileMap"
+              },
+              {
+                "id": "51",
+                "name": "TileSeg8",
+                "type": "tileMap"
+              },
+              {
+                "id": "52",
+                "name": "TileSeg9",
+                "type": "tileMap"
+              },
+              {
+                "id": "53",
+                "name": "TileSeg10",
+                "type": "tileMap"
+              },
+              {
+                "id": "65",
+                "name": "TileSeg11",
+                "type": "tileMap"
+              },
+              {
+                "id": "66",
+                "name": "TileSeg12",
+                "type": "tileMap"
+              },
+              {
+                "id": "70",
+                "name": "TileSeg13",
+                "type": "tileMap"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "157",
+        "name": "PreFabSeg",
+        "type": null,
+        "children": [
+          {
+            "id": "28",
+            "name": "PrefabSeg1",
+            "type": "scene"
+          },
+          {
+            "id": "158",
+            "name": "PrefabSeg2",
+            "type": "scene"
+          },
+          {
+            "id": "54",
+            "name": "PrefabSeg3",
+            "type": "scene"
+          },
+          {
+            "id": "55",
+            "name": "PrefabSeg4",
+            "type": "scene"
+          },
+          {
+            "id": "56",
+            "name": "PrefabSeg5",
+            "type": "scene"
+          },
+          {
+            "id": "57",
+            "name": "PrefabSeg6",
+            "type": "scene"
+          },
+          {
+            "id": "58",
+            "name": "PrefabSeg7",
+            "type": "scene"
+          },
+          {
+            "id": "59",
+            "name": "PrefabSeg8",
+            "type": "scene"
+          },
+          {
+            "id": "60",
+            "name": "PrefabSeg9",
+            "type": "scene"
+          },
+          {
+            "id": "61",
+            "name": "PrefabSeg10",
+            "type": "scene"
+          },
+          {
+            "id": "67",
+            "name": "PrefabSeg11",
+            "type": "scene"
+          },
+          {
+            "id": "68",
+            "name": "PrefabSeg12",
+            "type": "scene"
+          },
+          {
+            "id": "69",
+            "name": "PrefabSeg13",
+            "type": "scene"
+          },
+          {
+            "id": "163",
+            "name": "Win",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "41",
+        "name": "seg9",
+        "type": null,
+        "children": [
+          {
+            "id": "73",
+            "name": "TouchBehavior",
+            "type": "script"
+          },
+          {
+            "id": "74",
+            "name": "OpenDoorBehavior",
+            "type": "script"
+          },
+          {
+            "id": "75",
+            "name": "ZeroGravityBehavior",
+            "type": "script"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Sprites",
+    "type": null,
+    "children": [
+      {
+        "id": "2",
+        "name": "Player",
+        "type": "sprite"
+      },
+      {
+        "id": "18",
+        "name": "Items",
+        "type": null,
+        "children": [
+          {
+            "id": "16",
+            "name": "Chicken",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "94",
+        "name": "Transparent",
+        "type": "sprite"
+      },
+      {
+        "id": "97",
+        "name": "RGB scanlines",
+        "type": "sprite"
+      },
+      {
+        "id": "103",
+        "name": "Ship",
+        "type": "sprite"
+      },
+      {
+        "id": "126",
+        "name": "UI",
+        "type": null,
+        "children": [
+          {
+            "id": "127",
+            "name": "GreenButtonCenter",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "160",
+        "name": "Star",
+        "type": "sprite"
+      },
+      {
+        "id": "161",
+        "name": "Fire",
+        "type": "sprite"
+      },
+      {
+        "id": "164",
+        "name": "Win",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Startup",
+    "type": "script"
+  },
+  {
+    "id": "89",
+    "name": "Other",
+    "type": null,
+    "children": [
+      {
+        "id": "90",
+        "name": "TechMono128",
+        "type": "font"
+      },
+      {
+        "id": "92",
+        "name": "Tests",
+        "type": "shader"
+      }
+    ]
+  }
+]

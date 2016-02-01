@@ -1,0 +1,64 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Instructions",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "fontAssetId": "90",
+            "text": "Instructions\n\nUse your device to help control the ship's impulse-drive. Find \nflux warp epicenters around the world to communicate with the \nship over a faster than light channel.\n\nBeing further away from an epicenter, increases disturbances \non your communication channel. Move as close to an epicenter \nas you can, to get an optimal control experience.",
+            "alignment": "center",
+            "size": 96,
+            "color": null,
+            "verticalAlignment": "center"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "DialogBehavior",
+            "propertyValues": {
+              "targetState": {
+                "type": "string",
+                "value": "StartScreen"
+              }
+            }
+          },
+          "id": "1"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "InstructionsBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 5
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

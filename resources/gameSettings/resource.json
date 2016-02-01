@@ -1,0 +1,10 @@
+{
+  "formatVersion": 1,
+  "startupSceneId": "128",
+  "framesPerSecond": 60,
+  "ratioNumerator": null,
+  "ratioDenominator": null,
+  "customLayers": [
+    "PrizeItems"
+  ]
+}

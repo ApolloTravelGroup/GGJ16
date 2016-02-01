@@ -1,0 +1,69 @@
+{
+  "history": [
+    {
+      "timestamp": 1454231962510,
+      "author": "Fredrik",
+      "text": "Hur går det?"
+    },
+    {
+      "timestamp": 1454232062072,
+      "author": "Joshua",
+      "text": "Det rullar på. Jag är i Forum, Göran är hemma. Det är mest sista till snyggningen kvar nu."
+    },
+    {
+      "timestamp": 1454235416972,
+      "author": "Fredrik",
+      "text": "Uppehåll mellan basketmatcherna nu. Har ni några frågetecken på Geo eller Difficultylevel?"
+    },
+    {
+      "timestamp": 1454235461274,
+      "author": "Joshua",
+      "text": "Det verkar fungera, fick ändra lite RNG funktionen men annars får vi upp olika banor för olika geo positioner!"
+    },
+    {
+      "timestamp": 1454249139346,
+      "author": "Tomaz",
+      "text": "Sjysst! Jag hann in o kolla nån minut bara men är lite avis på all kreativitet. Kan vi köra på måndag tisdag också. ;)"
+    },
+    {
+      "timestamp": 1454249218458,
+      "author": "Joshua",
+      "text": "Nu räknas det väl som att du varit med - då måste du registrera på global game sajten."
+    },
+    {
+      "timestamp": 1454249479688,
+      "author": "Tomaz",
+      "text": ":) Jag testade lite men får bara invalid asset path, Pussel/seg1/PrefabSeg1"
+    },
+    {
+      "timestamp": 1454249493933,
+      "author": "Joshua",
+      "text": "Just nu är vi uppe i en refactoring..."
+    },
+    {
+      "timestamp": 1454249500664,
+      "author": "Tomaz",
+      "text": "I see..."
+    },
+    {
+      "timestamp": 1454249993790,
+      "author": "guran",
+      "text": "Har fixat lite fel nu, så nu ska det vara startbart iaf"
+    },
+    {
+      "timestamp": 1454250001529,
+      "author": "guran",
+      "text": "Men man kommer inte så långt"
+    },
+    {
+      "timestamp": 1454250506658,
+      "author": "Tomaz",
+      "text": "Cool, Jag kikar :)"
+    },
+    {
+      "timestamp": 1454250644407,
+      "author": "Joshua",
+      "text": "Nu ska det gå att se allt också."
+    }
+  ]
+}
